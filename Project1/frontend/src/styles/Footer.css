@@ -1,0 +1,25 @@
+.footerBar {
+    padding: 20px;
+    background-color: #795663;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+}
+
+.footerSection {
+    padding: 20px 60px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.helpSection {
+    margin-left: auto;
+}
+
+.newsSubmit {
+    padding: 0px 5px;
+}

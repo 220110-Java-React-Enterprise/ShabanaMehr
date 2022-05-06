@@ -1,0 +1,16 @@
+body {
+  background-color: #fdfbf6;
+}
+
+p {
+  padding: 15px;
+  color: black;
+}
+
+a {
+  color: #75BBA7;
+}
+
+a:hover {
+  color: #7AE7C7;
+}

@@ -218,7 +218,7 @@ public class Input {
 
 
     // This is identical to what is in login, but maybe this version should be used instead.
-    // Checks whether a user entered input that meant cancelling out of the current menu.
+    // Checks whether a user entered input that meant canceling out of the current menu.
     // Returns a true if it finds something like cancel, false otherwise.
     public Boolean userInitiatedCancel(String input) {
         if (input.equals("quit") || input.equals("cancel") || input.equals("exit")) {

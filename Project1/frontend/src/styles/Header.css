@@ -1,0 +1,97 @@
+/*
+    -Color Palette-
+    Teal; #7AE7C7
+    grey teal; #75BBA7
+    Periwinkle: #6C809A
+    Maroon: #795663
+    Brown: #645244
+    Off-white: #FDFBF6
+    Beige: #CDB493
+*/
+
+.headerBar {
+    padding: 20px;
+    background-color: #795663;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    z-index: 100;
+}
+
+.headerBar a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerBar a:hover {
+    color: #CDB493;
+}
+
+.siteName {
+    margin-right: auto;
+    display: flex;
+    color: white;
+}
+
+.navLinks {
+    margin-left: auto;
+    display: flex;
+}
+
+.navLinks li {
+    list-style: none;
+    cursor: pointer;
+    display: inline;
+    padding: 0px 10px;
+    font-size: 26px;
+}
+
+.navBar button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 36px;
+}
+
+.navBar button:hover {
+    color: #CDB493;
+}
+
+.navBurger {
+    background-color: #795663;
+    text-align: center;
+    float: right;
+    line-height: 200%;
+    display: none;
+    z-index: 3;
+}
+
+.navBurger li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 26px;
+    padding: 10px 25px;
+}
+
+@media (min-width: 800px) {
+    .navBar #burgerIcon {
+        display: none;
+    }
+
+    .navLinks {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 800px) {
+    .navBar #burgerIcon {
+        display: inline-block;
+    }
+    
+    .navLinks {
+        display: none;
+    }
+}
